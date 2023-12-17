@@ -1,6 +1,9 @@
-# Time Application
+- Цель - запустить приложение в Docker контейнерах для дальнейшей разработки
+- Создать Dockerfile для фронтенд сервиса Vue.js
+- Создать Dockerfile для бэкенд сервиса Node.js
+- Найти подходящие образы для сервисов MySQL, Adminer на Docker Hub
+- Создать docker-compose.yml файл и описать в нем четыре сервиса, включая настройку портов и томов
+- Запустить все сервисы и продолжить разработку
 
-Time application consists of the frontend and backend parts
-Frontend is written with help of the Vue.js framework
-Backend is written using Node.js and Express
-Database is MySQL
+  Для того что бы проект работал надо скачать приложение Docker и желательно VS code
+  Запускаем приложение докер и VS code в терминале прописываем docker compose up, далее в браузере прописываем http://localhost:3000/
